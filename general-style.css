@@ -1,0 +1,28 @@
+.form-control-custom {
+  height: 30px;
+  padding: 0 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+.btn {
+  position: absolute;
+  top: 10px;  
+  right: 10px;  
+  margin: 0;
+}
+.card {
+  border: 1px solid green;
+}
+.container-fluid {
+  margin-top: 50px;
+}
+table {
+  margin: 50px auto;
+}
+th, td {
+  padding: 15px;
+}
+
+
+  
