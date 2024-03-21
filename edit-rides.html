@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit-Rides</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="settings-style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="mt-2">
+      <img src="Images/Image.png" alt="Imagen 1" class="img-fluid">
+    </div>
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="pagina1.html">Dashboard</a></li>
+        <li class="breadcrumb-item"><a href="pagina2.html">Rides</a></li>
+        <li class="breadcrumb-item"><a href="pagina2.html">Settings</a></li>
+      </ol>
+    </nav>
+
+    <h1>Settings</h1>
+    <a href="pagina3.html" class="text-muted mt-2">Dashboard> Settings> Edit</a>
+
+    <div class="d-flex justify-content-end mt-2">
+      <p class="mr-3"> <span>Welcome: </span> JefryM27</p> <img src="Images/user.png" alt="Imagen 2" class="img-fluid">
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="p-2 mt-2">
+          <p>Ride Name:</p>
+          <input type="text" class="form-control campo-pequeno" id="full_name" name="full_name" value="Brete" />
+        </div>
+
+        <div class="p-2 mt-2">
+          <p>Start From:</p>
+          <input type="text" class="form-control campo-pequeno" id="speed_average" name="speed_average" value="Parque Santa Rosa" />
+        </div>
+
+        <div class="p-2 mt-2">
+          <p>Description:</p>
+          <input type="text" class="form-control campo-about" id="about_me" name="about_me" value="Me gusta la velocidad, lo siento." />
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="p-2 mt-2">
+          <p>Another Paragraph:</p>
+          <input type="text" class="form-control campo-pequeno" id="otro_campo" name="otro_campo" value="Valor del otro campo" />
+        </div>
+
+        <div class="p-2 mt-2">
+          <p>Select Days:</p>
+          <div>
+            <input type="checkbox" id="day1" name="day_selection[]" value="monday">
+            <label for="day1">Monday</label><br>
+
+            <input type="checkbox" id="day2" name="day_selection[]" value="tuesday">
+            <label for="day2">Tuesday</label><br>
+
+            <input type="checkbox" id="day3" name="day_selection[]" value="wednesday">
+            <label for="day3">Wednesday</label><br>
+
+            <input type="checkbox" id="day4" name="day_selection[]" value="thursday">
+            <label for="day4">Thursday</label><br>
+
+            <input type="checkbox" id="day5" name="day_selection[]" value="friday">
+            <label for="day5">Friday</label><br>
+
+            <input type="checkbox" id="day6" name="day_selection[]" value="saturday">
+            <label for="day6">Saturday</label><br>
+
+            <input type="checkbox" id="day7" name="day_selection[]" value="sunday">
+            <label for="day7">Sunday</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Agrega más elementos aquí según sea necesario -->
+
+    <div class="d-flex justify-content-between mt-4">
+      <button type="button" class="btn btn-secondary">Cancel</button>
+      <button type="button" class="btn btn-primary">Save</button>
+    </div>
+
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.wrap.min.js"></script>
+</body>
+
+</html>

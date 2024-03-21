@@ -1,54 +1,16 @@
+/* Estilos para el contenedor del login */
+.login-container {
+  position: relative;
+  margin-top: 100px; /* Margen superior */
+  background-color: #f8f9fa; /* Color de fondo */
+  border-radius: 10px; /* Borde redondeado */
+  padding: 20px; /* Espaciado interno */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
 
-.login-form {
-    width: 300px; 
-    margin: 0 auto; 
-    text-align: center; 
-    margin-top: 100px;
-  }
-  .login-form h2 {
-    margin-bottom: 20px;
-  }
-  
-  .login-form input[type="text"], .login-form input[type="password"] {
-    width: 100%;
-    margin-bottom: 10px;
-    height: 40px;
-    font-size: 16px;
-    padding: 0 10px;
-    border-radius: 0.25rem;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-  }
-  
-  .login-form input[type="submit"] {
-    width: 100%;
-    margin-top: 10px;
-    height: 40px;
-    font-size: 16px;
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    border-radius: 0.25rem;
-    cursor: pointer;
-  }
-  
-  .login-form label {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 14px;
-  }
-.login-button {
-    width: 250px;
-    height: 40px;
-    background-color: #0000FF;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  
+/* Estilos para la imagen */
+.login-container img {
+  width: 100%;
+  height: auto;
+}
 
-  
-  

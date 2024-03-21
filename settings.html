@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="settings-style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="mt-2">
+      <img src="Images/Image.png" alt="Imagen 1" class="img-fluid">
+    </div>
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="pagina1.html">Dashboard</a></li>
+        <li class="breadcrumb-item"><a href="pagina2.html">Rides</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Settings</li>
+      </ol>
+    </nav>
+
+    <h1 class="mt-4">Settings</h1>
+    <a href="pagina3.html" class="text-muted mt-2">Dashboard> Settings</a>
+
+    <div class="d-flex justify-content-end mt-2">
+      <p class="mr-3"> <span>Welcome: </span> JefryM27</p> <img src="Images/user.png" alt="Imagen 2" class="img-fluid">
+    </div>
+
+    <div class="p-2 mt-2">
+        <p>Full Name:</p>
+        <input type="text" class="form-control campo-pequeno" id="full_name" name="full_name" value="Jefry Morera" />
+      </div>
+      
+      <div class="p-2 mt-2">
+        <p>Speed Average:</p>
+        <input type="text" class="form-control campo-pequeno" id="speed_average" name="speed_average" value="80 km/h" />
+      </div>
+      
+      <div class="p-2 mt-2">
+        <p>About Me:</p>
+        <input type="text" class="form-control campo-about" id="about_me" name="about_me" value="Me gusta la velocidad, lo siento." />
+      </div>
+      
+      
+
+    <div class="d-flex justify-content-between mt-4">
+        <button type="button" class="btn btn-secondary">Cancel</button>
+        <button type="button" class="btn btn-primary">Save</button>
+      </div>
+
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.wrap.min.js"></script>
+</body>
+
+</html>

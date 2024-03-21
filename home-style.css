@@ -23,6 +23,12 @@ table {
 th, td {
   padding: 5px;
 }
+body {
+  background-image: url('Images/home.jpg');
+  background-size: cover; /* para cubrir todo el fondo */
+  background-position: center; /* para centrar la imagen */
+}
+
 
 
 
