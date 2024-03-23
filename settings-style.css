@@ -1,16 +1,19 @@
+/* Styling for the container */
 .container {
-    border: none; /* Remove border from container */
-  }
-  
-  .campo-pequeno {
-    width: 250px; /* Puedes ajustar el valor según sea necesario */
-  }
+  border: none; 
+}
 
-  .campo-about{
-    width: 400px;
-    height: 150px;
-  }
-  
+/* Styling for small input fields */
+.campo-pequeno {
+  width: 250px; 
+}
+
+/* Styling for the "About Me" input field */
+.campo-about {
+  width: 400px; 
+  height: 150px; 
+}
+
   
   
   

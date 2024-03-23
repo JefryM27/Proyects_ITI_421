@@ -4,11 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Edit-Rides</title>
+  <title><See-Rides></See-Rides></title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="rides-style.css">
-  
-
 </head>
 
 <body>
@@ -27,7 +25,7 @@
     </nav>
 
     <h1>Rides</h1>
-    <a href="pagina3.html" class="text-muted mt-2">Dashboard> Settings> Edit</a>
+    <a href="pagina3.html" class="text-muted mt-2">Dashboard> Settings> See</a>
 
     <div class="d-flex justify-content-end mt-2">
       <p class="mr-3"> <span>Welcome: </span> JefryM27</p> <img src="Images/user.png" alt="Imagen 2" class="img-fluid">
@@ -37,26 +35,26 @@
       <div class="col-md-6">
         <div class="p-2 mt-2">
           <p>Start From:</p>
-          <input type="text" class="form-control campo-pequeno" id="start" name="start" value="Santa Rosa" />
+          <input type="text" class="form-control campo-pequeno" id="start" name="start" value="Input text" readonly />
         </div>
         
         <div class="p-2 mt-2">
           <p>Ride name:</p>
-          <input type="text" class="form-control campo-pequeno" id="ride_name" name="ride_name" value="Parque Santa Rosa" />
+          <input type="text" class="form-control campo-pequeno" id="ride_name" name="ride_name" value="Input text" readonly />
         </div>
       </div>
 
       <div class="col-md-6">
         <div class="p-2 mt-2">
           <p>End:</p>
-          <input type="text" class="form-control campo-pequeno" id="end_location" name="end_location" value="Destino" />
+          <input type="text" class="form-control campo-pequeno" id="end_location" name="end_location" value="Input text" readonly />
         </div>
       </div>
     </div>
 
     <div class="p-2 mt-2">
       <p>Description:</p>
-      <input type="text" class="form-control campo-mediano" id="description" name="description" value="Descripción del viaje" />
+      <input type="text" class="form-control campo-mediano" id="description" name="description" value="Add here the description of the Ride" readonly />
     </div>
 
     <div class="p-2 mt-2 border-top">
@@ -66,11 +64,11 @@
         <div class="col-md-6">
           <div class="p-2 mt-2">
             <p>Departure:</p>
-            <input type="text" class="form-control campo-pequeno" id="end_location_2" name="end_location" value="6:45 AM" />
+            <input type="text" class="form-control campo-pequeno" id="end_location_1" name="end_location" value="6:45 AM" readonly />
           </div>
           <div class="p-2 mt-2">
             <p>Estimated Arrival:</p>
-            <input type="text" class="form-control campo-pequeno" id="Estimated_Arrival" name="Estimated_Arrival" value="7:45 AM" />
+            <input type="text" class="form-control campo-pequeno" id="Estimated_Arrival" name="Estimated_Arrival" value="7:45 AM" readonly />
           </div>
         </div>
         <div class="col-md-6">
@@ -124,9 +122,10 @@
     
     </div>
     
+
     <div class="d-flex justify-content-between mt-4">
-      <button type="button" class="btn btn-secondary" onclick="window.location.href = 'add-rides.html';">Cancel</button>
-      <button type="button" class="btn btn-primary" onclick="window.location.href = 'see-ride.html';">Save</button>
+      <button type="button" class="btn btn-secondary" onclick="window.location.href = 'edit-rides.html';">Cancel</button>
+      <button type="button" class="btn btn-primary" onclick="window.location.href = 'add-rides.html';">Save</button>
 
     </div>
 

@@ -1,16 +1,18 @@
-/* Estilos para el contenedor del login */
+
+/* Styling for the login container */
 .login-container {
-  position: relative;
-  margin-top: 100px; /* Margen superior */
-  background-color: #f8f9fa; /* Color de fondo */
-  border-radius: 10px; /* Borde redondeado */
-  padding: 20px; /* Espaciado interno */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  position: relative; 
+  margin-top: 100px; 
+  background-color: #f8f9fa; 
+  border-radius: 10px; 
+  padding: 20px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
-/* Estilos para la imagen */
+/* Styling for images inside the login container */
 .login-container img {
-  width: 100%;
-  height: auto;
+  width: 100%; 
+  height: auto; 
 }
+
 
